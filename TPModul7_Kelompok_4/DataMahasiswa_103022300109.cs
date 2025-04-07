@@ -45,10 +45,5 @@ namespace TPModul7_Kelompok_4
                 Console.WriteLine("Terjadi kesalahan saat deserialisasi: " + ex.Message);
             }
         }
-
-        public static void Main(string[] args)
-        {
-            ReadJSON(@"C:\Users\rezai\source\repos\EdselSpth\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp_1_103022300109.json");
-        }
     }
 }
