@@ -1,11 +1,12 @@
 ﻿using System;
+using TPModul7_Kelompok_4;
 
 class program
 {
     static void Main(string[] args)
     {
-        DataMahasiswa103022300088.ReadJSON(@"D:\telkom\coding\C#\tpmodul7\TPModul7_Kelompok_4\tp7_1_103022300101.json");
+        DataMahasiswa103022300101.ReadJSON(@"D:\telkom\coding\C#\tpmodul7\TPModul7_Kelompok_4\tp7_1_103022300101.json");
         Console.WriteLine(" ");
-        //KuliahMahasiswa103022300088.ReadJson(@"C:\Users\rakad\Downloads\tpmod7_103022300088\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_2_103022300088.json");
+        KuliahMahasiswa_103022300101.ReadJson(@"D:\telkom\coding\C#\tpmodul7\TPModul7_Kelompok_4\tp7_2_103022300101.json");
     }
 }

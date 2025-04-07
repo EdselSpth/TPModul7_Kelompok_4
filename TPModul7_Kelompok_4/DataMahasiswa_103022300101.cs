@@ -3,7 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-public class DataMahasiswa103022300088
+public class DataMahasiswa103022300101
 {
     public class Nama
     {
