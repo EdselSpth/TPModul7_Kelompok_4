@@ -24,7 +24,9 @@ namespace TPModul7_Kelompok_4
 
             // Panggil method ReadJson dari class KuliahMahasiswa buat baca file JSON course mata kuliah
             KuliahMahasiswa_103022300101.ReadJson(@"D:\telkom\coding\C#\tpmodul7\TPModul7_Kelompok_4\tp7_2_103022300101.json");
+            DataMahasiswa103022300088.ReadJSON(@"C:\Users\rakad\Downloads\tpmod7_103022300088\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_1_103022300088.json");
+            Console.WriteLine(" ");
+            KuliahMahasiswa103022300088.ReadJson(@"C:\Users\rakad\Downloads\tpmod7_103022300088\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_2_103022300088.json");
         }
     }
 }
-
