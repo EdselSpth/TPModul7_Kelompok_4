@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+class program
+{
+    static void Main(string[] args)
+    {
+        DataMahasiswa103022330036_Funny.ReadJSON(@"C:\Users\Haikal Cannavaro\source\repos\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_1_103022330036.json");
+        Console.WriteLine(" ");
+    }
+}
