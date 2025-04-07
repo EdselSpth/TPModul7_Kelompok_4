@@ -40,10 +40,5 @@ public class DataMahasiswa103022300088
             Console.WriteLine("Terjadi kesalahan saat deserialisasi: " + ex.Message);
         }
     }
-
-    public static void Main(string[] args)
-    {
-        ReadJSON(@"C:\Users\rakad\Downloads\tpmod7_103022300088\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_1_103022300088.json");
-    }
 }
 
