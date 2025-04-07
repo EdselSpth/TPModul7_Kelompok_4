@@ -29,6 +29,10 @@ namespace TPModul7_Kelompok_4
             DataMahasiswa_103022300109.ReadJSON(@"C:\Users\rezai\source\repos\EdselSpth\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp_1_103022300109.json");
             Console.WriteLine(" ");
             KuliahMahasiswa_103022300109.ReadJson(@"C:\Users\rezai\source\repos\EdselSpth\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_2_103022300109.json");
+            DataMahasiswa103022330036_Funny.ReadJSON(@"C:\Users\Haikal Cannavaro\source\repos\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_1_103022330036.json");
+            Console.WriteLine(" ");
+            KuliahMahasiswa103022330036_TioFunnyTinambunan.ReadJson(@"C:\Users\Haikal Cannavaro\source\repos\TPModul7_Kelompok_4\TPModul7_Kelompok_4\tp7_2_103022330036.json");
         }
     }
 }
+
