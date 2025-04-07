@@ -35,7 +35,7 @@ public class KuliahMahasiswa103022300088
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Kegagalan Deserialisasi JSON");
+            Console.WriteLine("Terjadi kesalahan saat deserialisasi: " + ex.Message);
         }
     }
 }
